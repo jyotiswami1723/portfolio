@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.header {
+  background: #0078d7;
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.header .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.2rem;
+  background: white;
+  color: #0078d7;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.section {
+  padding: 2.5rem 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  color: #0078d7;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.skills-grid span {
+  background: #0078d7;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.projects {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.project-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  color: #0078d7;
+}
+
+.project-card a {
+  color: #0078d7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #0078d7;
+  color: white;
+  margin-top: 2rem;
+}
